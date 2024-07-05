@@ -1,1 +1,1 @@
-Projeto para teste e particar Websocket
+Projeto para testar e praticar Websocket
