@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebSocket Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <div class="modal-container">
+      <h1>Escolha seu nick</h1>
+      <input type="text" placeholder="Seu nick" id="nick-name">
+      <label for="my-color">Escolha a cor do seu nick</label>
+      <input type="color" name="my-color" id="my-color">
+      <button id="btn-save-nick">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="chat">
+      <h1>WebSocket Chat</h1>
+      <div id="messages"></div>
+    </div>
+    <div class="inputs">
+      <div class="typing-container"></div>
+      <input type="text" id="input" placeholder="Type your message here..." />
+      <button id="send">Send</button>
+    </div>
+  </div>
+
+
+  <script src="initUser.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
